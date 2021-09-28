@@ -70,14 +70,23 @@ body{
 
 .container-end{
     margin: auto;
+    margin-bottom: 30px;
     padding: 50px;
     background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sezione{
+    margin: 30px 0;
 }
 
 .round{
     border: 1px solid;
-    border-radius: 100%;
-    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 3px;
+    font-size: 8px;
 }
 
 .positive{
@@ -120,5 +129,10 @@ body{
 
 .lightgreen{
     background-color: yellowgreen;
+    color: white;
+}
+
+.invisible{
+    background-color: white;
     color: white;
 }
